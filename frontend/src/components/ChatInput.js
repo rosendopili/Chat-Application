@@ -12,6 +12,7 @@ class ChatInput extends Component {
   render() {
     return (
       <form
+        required="required"
         action="."
         onSubmit={e => {
           e.preventDefault()
@@ -24,6 +25,7 @@ class ChatInput extends Component {
           placeholder={'Enter message...'}
           value={this.state.message}
           onChange={e => this.setState({ message: e.target.value })}
+          required="required"
         />
         <input type="submit" value={'Send'} />
       </form>
