@@ -1,0 +1,29 @@
+.ChatBox {
+  background-color: gray;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.MessageBoxContainer {
+  height: 80vh;
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+
+.NameInput {
+  width: 35vw;
+  height: 20px;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.Name {
+  color: white;
+}

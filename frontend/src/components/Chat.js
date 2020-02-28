@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
-import ChatInput from './ChatInput'
-import ChatMessage from './ChatMessage'
+
+import ChatInput from './ChatComponents/ChatInput/ChatInput'
+import ChatMessage from './ChatComponents/ChatMessage/ChatMessage'
+
+import './Chat.css';
 
 const URL = 'ws://localhost:3030'
 
@@ -45,10 +48,22 @@ class Chat extends Component {
 
   render() {
     return (
-      <div>
-        <label htmlFor="name">
+      <div className="ChatBox">
+        <div className="MessageBoxContainer">
+        {this.state.messages.map((message, index) =>
+          <ChatMessage
+            key={index}
+            message={message.message}
+            name={message.name}
+          />,
+        ).reverse()}
+        </div>
+        <label
+        className="Name"
+        htmlFor="name">
           Name:&nbsp;
           <input
+            className="NameInput"
             type="text"
             id={'name'}
             placeholder={'Enter your name...'}
@@ -60,13 +75,7 @@ class Chat extends Component {
           ws={this.ws}
           onSubmitMessage={messageString => this.submitMessage(messageString)}
         />
-        {this.state.messages.map((message, index) =>
-          <ChatMessage
-            key={index}
-            message={message.message}
-            name={message.name}
-          />,
-        ).reverse()}
+
       </div>
     )
   }

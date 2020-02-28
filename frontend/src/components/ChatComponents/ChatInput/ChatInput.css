@@ -1,0 +1,22 @@
+.ChatForm {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 2px;
+  padding: 5px;
+}
+
+.MessageField {
+  height: 20vh;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.Button {
+  margin-top: 6px;
+}

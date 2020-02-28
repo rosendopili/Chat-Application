@@ -1,0 +1,25 @@
+.MessageBox {
+  background-color: lightgray;
+  width: 80vw;
+  min-height: 24px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  word-wrap: break-word;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 4px 5px gray; 
+}
+
+strong {
+  float: left;
+  margin-left: 10px;
+  padding: 4px;
+}
+
+p {
+  margin: 10px;
+  padding: 4px;
+}
