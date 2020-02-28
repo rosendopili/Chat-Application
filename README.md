@@ -1,5 +1,5 @@
 # CHAT APPLICATION
 
-## Technology Used: 
-..* React.JS
-..* WebSocket
+### Technology Used: 
+* React.JS
+* WebSocket
