@@ -66,7 +66,7 @@ class Chat extends Component {
             message={message.message}
             name={message.name}
           />,
-        )}
+        ).reverse()}
       </div>
     )
   }
