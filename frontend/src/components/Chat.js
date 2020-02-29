@@ -9,7 +9,7 @@ const URL = 'ws://localhost:3030'
 
 class Chat extends Component {
   state = {
-    name: "Ro",
+    name: " ",
     messages: [],
   }
 

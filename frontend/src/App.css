@@ -1,8 +1,9 @@
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .App {
   text-align: center;
+  background-color: #8FA9FF;
 }

@@ -1,7 +1,15 @@
 import React from 'react';
 import './ChatMessage.css';
 
-export default ({ name, message }) =>
-  <div className="MessageBox">
-    <strong>{name}</strong> <p>{message}</p>
-  </div>
+const chatMessage = (props) => {
+
+  return (
+    <div className="MessageBox">
+      <strong>{props.name}</strong> <p>{props.message}</p>
+    </div>
+
+  )
+}
+
+
+export default chatMessage;
