@@ -1,6 +1,6 @@
 # CHAT APPLICATION
 
-![](Chat_Socket_ScreenShot.png)
+![](https://github.com/rosendopili/Chat-Application/blob/master/Chat_Socket_Screenshot.jpg)
 
 ### Technology Used: 
 * React.JS
