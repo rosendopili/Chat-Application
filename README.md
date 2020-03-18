@@ -1,6 +1,6 @@
 # CHAT APPLICATION
 
-![](./Chat_Socket_Screenshot.jpg)
+![](./Chat_Socket_ScreenShot.jpg)
 
 ### Technology Used: 
 * React.JS
