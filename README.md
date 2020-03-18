@@ -1,6 +1,6 @@
 # CHAT APPLICATION
 
-<img src="https://github.com/rosendopili/Chat-Application/blob/master/ChatScreenShot.png" alt="Chat Picture" width="600" height="400"/>
+<img src="https://github.com/rosendopili/Chat-Application/blob/master/Chat_Socket_ScreenShot.png" alt="Chat Picture" width="600" height="400"/>
 
 ### Technology Used: 
 * React.JS
