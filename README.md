@@ -1,6 +1,6 @@
 # CHAT APPLICATION
 
-<img src="https://github.com/rosendopili/Chat-Application/blob/master/Chat_Socket_ScreenShot.png" alt="Chat Picture" />
+![](https://github.com/rosendopili/Chat-Application/blob/master/Chat_Socket_ScreenShot.png)
 
 ### Technology Used: 
 * React.JS
